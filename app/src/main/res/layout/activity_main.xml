@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/btn_verificar"
+       android:text="@string/btnVerificar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:onClick="onClickVerificar"/>
+
+   <Button
+       android:id="@+id/btn_pareados"
+       android:text="@string/btn_pareados"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:onClick="onClickPareados"/>
+
+    <Button
+        android:id="@+id/btn_dispositivos"
+        android:text="Encontrar dispositivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDispositivos"/>
+
+    <Button
+        android:id="@+id/btn_visivel"
+        android:text="Tornar visível"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickVisivel"/>
+
+    <Button
+        android:id="@+id/btn_server"
+        android:text="Iniciar Servidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickServerStart"/>
+
+</LinearLayout>

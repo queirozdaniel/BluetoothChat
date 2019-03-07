@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bluetooth Chat</string>
+    <string name="btnVerificar">Verificar e Ativar Bluetooth</string>
+    <string name="btn_pareados">Dispositivos Pareados</string>
+</resources>
